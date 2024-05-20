@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poster Anti-Bullying</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Stop Bullying</h1>
+        <p>ngatahu apa</p>
+    </header>
+    <main>
+        <section class="poster">
+            <img src="" alt="">
+        </section>
+        <section class="message">
+            <h2>What You Can Do</h2>
+            <ul>
+                <li>gatahu apa</li>
+                <li>gatahu apa</li>
+                <li>Educate others about the effects of bullying</li>
+                <li>Promote kindness and respect</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Created by [Your Name]</p>
+    </footer>
+</body>
+</html>
