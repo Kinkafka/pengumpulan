@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background: white;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+            height: 100vh;
+        }
+        .kontener{
+            background-color: aliceblue;
+            flex-direction: column;
+            display: flex;
+            padding: 20px;
+            position: relative;
+        }
+
+        nav ul{
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            padding: 20px;
+        }
+        
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a{
+            text-decoration: none;
+            justify-content: center;
+            color: black;
+            font: bold;
+        }
+        .imagechar img{
+            width: 25%;
+            rotate: 15deg;
+        }
+    </style>
+<body>
+    <div class="kontener">
+        <nav>
+            <ul>
+                <li><a href=""></a>HOME</li>
+                <li><a href=""></a>ROOM</li>
+                <li><a href=""></a>CHAR</li>
+                <li><a href=""></a>TOOLS</li>
+                <li><a href=""></a>SHOP</li>
+            </ul>
+        </nav>
+        <div class="imagechar">
+            <img src="Makima-removebg-preview.png" alt="makima.png">
+        </div>
+    </div>
+</body>
+</html>
