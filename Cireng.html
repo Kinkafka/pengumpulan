@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cemilan Ceria</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color:#a39874;
+    }
+
+    header {
+      background-color: #703d3d;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .textkanan {
+      font-size: 40px;
+      font-family: 'Chinese Rocks', sans-serif;
+      font-style: italic;
+      color: chocolate;
+      padding-left: 10px;
+      font-weight: bold;
+    }
+
+    .logo img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    nav li {
+      margin-right: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    nav a:hover {
+      color: #ccc;
+    }
+
+    .social-media {
+      margin-left: 10px;
+    }
+
+    .social-media i {
+      font-size: 24px;
+      color: #fff;
+      transition: color 0.3s;
+    }
+
+    .social-media i:hover {
+      color: #ccc;
+    }
+    
+    .teks{
+      position: relative;
+      text-align: center;
+      color: ghostwhite;
+    }
+
+    .image {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 3);
+    }
+    .teks h1{
+      position: absolute;
+      top: 500px;
+      left: 80px;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 65px;
+      text-shadow: 0 5px 20px black;
+    }
+      .teks p{
+      position: absolute;
+      top: 570px;
+      left: 100px;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 35px;
+      text-shadow: 0 5px 20px black;
+      }
+      
+      .teks a{
+      position: absolute;
+      width: 130px;
+      top: 650px;
+      left: 110px;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 45px;
+      text-shadow: 0 5px 20px black;
+      }
+      
+    
+      
+
+    .container {
+      display: flex;
+      justify-content: center;
+      margin: 30px auto;
+    }
+
+    .card__container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 1200px;
+    }
+
+    .card__article {
+      background: #fff;
+      border-radius: 10px;
+      margin: 35px;
+      box-shadow: 0 8px 20px chocolate;
+      overflow: hidden;
+      width: 300px;
+      transition: transform 0.3s;
+    }
+
+    .card__img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px 10px 0 0;
+    }
+
+    .card__data {
+      padding: 15px;
+    }
+
+    .card__description {
+      font-size: 14px;
+      color: #777;
+    }
+
+    .card__title {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 5px 0;
+    }
+
+    .card__button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .card__button:hover {
+      background-color: #555;
+    }
+
+    .card__article:hover {
+      transform: translateY(-5px);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.jpg" alt="Logo Cemilan Ceria">
+      <span class="textkanan">CEMILAN CERIA</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Kontak</a></li>
+        <li>
+          <a href="#" class="social-media">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="#" class="social-media">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="social-media">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+    <div class="teks">
+    <img class="image" src="cireng.jpg">
+    <h1>CEMILAN CERIA</h1>
+    <p>Cemilan Ceria Renyah Dan Enak</p>
+    <a href="#" class="card__button">BELI</a>
+  </div>
+
+  <div class="container">
+    <div class="card__container">
+      <article class="card__article">
+        <img src="cireng.jpg" alt="image" class="card__img">
+        <div class="card__data">
+          <span class="card__description">Rp 3.000</span>
+          <h2 class="card__title">Cireng Isi</h2>
+          <a href="#" class="card__button">BELI</a>
+        </div>
+      </article>
+
+      <article class="card__article">
+        <img src="cireng.jpg" alt="image" class="card__img">
+        <div class="card__data">
+          <span class="card__description">Rp 3.000</span>
+          <h2 class="card__title">Cireng Isi</h2>
+          <a href="#" class="card__button">BELI</a>
+        </div>
+      </article>
+
+      <article class="card__article">
+        <img src="cireng.jpg" alt="image" class="card__img">
+        <div class="card__data">
+          <span class="card__description">Rp 3.000</span>
+          <h2 class="card__title">Cireng Isi</h2>
+          <a href="#" class="card__button">BELI</a>
+        </div>
+      </article>
+
+      <article class="card__article">
+        <img src="cireng.jpg" alt="image" class="card__img">
+        <div class="card__data">
+          <span class="card__description">Rp 3.000</span>
+          <h2 class="card__title">Cireng Isi</h2>
+          <a href="#" class="card__button">BELI</a>
+        </div>
+      </article>
+    </div>
+  </div>
+
+</body>
+      </html>
